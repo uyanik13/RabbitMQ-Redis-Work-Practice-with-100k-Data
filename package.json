@@ -1,0 +1,20 @@
+{
+  "name": "rabbitmq-redis-work-practice",
+  "author": "uyanik13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "consumer": "node consumer.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
